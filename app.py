@@ -28,7 +28,7 @@ def hello() -> str:
     dt.fit(X,y)
     y_pred = dt.predict(X_test)
     rmse = np.sqrt(mean_squared_error(y_test,y_pred))
-    return "prediction vs True:"+str(y_pred[0]+","+str(y_test[0]
+    return "prediction vs True:"+str(y_pred[0]+","+str(y_test[0])
 
 
 def shutdown_handler(signal_int: int, frame: FrameType) -> None:
